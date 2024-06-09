@@ -1,0 +1,181 @@
+@charset "UTF-8";
+.widget__abbr {
+  text-decoration: underline;
+}
+.widget__list {
+  letter-spacing: -0.02em;
+  margin-left: 20px;
+  display: flex;
+}
+.widget__item {
+  padding-left: 30px;
+  color: #fff;
+  background: url("../../Assets/images/bg.png");
+  width: 490px;
+  height: 470px;
+  background-repeat: no-repeat;
+}
+.widget__item:nth-child(2) {
+  margin-left: 30px;
+}
+.widget__img {
+  transform: translateY(40px);
+  margin-left: 160px;
+}
+.widget__head {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.widget__head::before {
+  content: "Grafik dizayn";
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 24px;
+}
+.widget__txt {
+  font-family: Manrope;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 400px;
+}
+.widget__partner {
+  display: flex;
+  padding-left: 60px;
+  background-color: rgb(219, 218, 218);
+  width: 1010px;
+  margin-left: 60px;
+}
+.widget__part--head {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+.widget__part--head::before {
+  content: "Yolg’iz emasmiz";
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FF7A00;
+}
+.widget__part--txt {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 310px;
+  letter-spacing: -0.02em;
+}
+.widget__partners {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.widget__i {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.widget__i:nth-child(12) {
+  margin-left: 10px;
+  transform: translateY(-20px);
+}
+.widget__i:nth-child(13) {
+  margin-left: 10px;
+}
+.widget__grad {
+  margin-left: 60px;
+  margin-top: 30px;
+  display: flex;
+}
+.widget__grad--left {
+  background-color: rgb(219, 218, 218);
+  width: 620px;
+  padding-bottom: 10px;
+  display: flex;
+}
+.widget__grad--head {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+.widget__g--l {
+  margin-top: 30px;
+}
+.widget__grad--head--after {
+  width: 260px;
+  color: #81755C;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.widget__g--link {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.86px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.widget__g--list {
+  font-family: Manrope;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-left: 120px;
+}
+.widget__g--h1::before {
+  content: "Bitiruvchilarimiz";
+  font-size: 16px;
+  line-height: 24px;
+}
+.widget__g--h2::before {
+  content: "O‘quvchilarimiz";
+  font-size: 16px;
+  line-height: 24px;
+}
+.widget__g--h3::before {
+  content: "Ustozlarimiz";
+  font-size: 16px;
+  line-height: 24px;
+}
+.widget__grad--right {
+  width: 420px;
+  background-color: #f9f8f7;
+  margin-left: 30px;
+}
+.widget__g--img {
+  margin-top: 30px;
+  width: 55px;
+  height: 55px;
+}
+.widget__g--flex {
+  display: flex;
+}
+.widget__g--s {
+  background-color: rgba(255, 255, 255, 0.3019607843);
+  border-radius: 50%;
+}
+.widget__g--t {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-left: 30px;
+}
+.widget__g--team {
+  width: 370px;
+  height: 340px;
+  margin-top: 25px;
+  margin-left: 25px;
+}/*# sourceMappingURL=widget.css.map */

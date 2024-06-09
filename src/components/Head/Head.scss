@@ -1,0 +1,57 @@
+
+.head{
+    background: url("../../Assets/images/0.png");
+    background-repeat: no-repeat;
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    padding-left: 60px;
+    &__head{
+        width: 430px;
+        font-family: Manrope;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 56px;
+        margin-top: 30px;
+        letter-spacing: -0.02em;
+    }
+    &__head::before{
+        content: "Ilm va tajriba ulashamiz";
+        color: #BA8D5B;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+    }
+    &__txt{
+        width: 250px;
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24.59px;
+        letter-spacing: -0.02em;
+    }
+    &__btn{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+        color:#ffffff;
+        background-color: #7AD111;
+        width: 210px;
+        height: 55px;
+        border-radius: 100px;
+        border: 0px;
+    }
+    &__btn--span{
+        margin-left: 15px;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+    }
+}

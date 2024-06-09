@@ -1,0 +1,72 @@
+.create {
+  width: 750px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.create__list {
+  list-style: none;
+}
+.create__logo {
+  margin-left: 240px;
+}
+.create__change {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.94px;
+}
+.create__txt {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.create__birthday {
+  height: 72px;
+  gap: 10px;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.94px;
+  text-align: left;
+  padding-left: 20px;
+  border-radius: 6px;
+}
+.create__head {
+  font-family: Segoe UI;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39.9px;
+  text-align: left;
+}
+.create__inp {
+  height: 70px;
+  width: 700px;
+  padding: 10px;
+  font-family: Segoe UI;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 23.94px;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.create__btn {
+  width: 100%;
+  border-radius: 76px;
+  color: #fff;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.94px;
+  height: 70px;
+  border: 0px;
+  background-color: #1DA1F2;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-weight: bold;
+}/*# sourceMappingURL=Create.css.map */

@@ -1,0 +1,102 @@
+.hero {
+  padding-left: 60px;
+  padding-right: 100px;
+  margin-top: 30px;
+}
+.hero__part {
+  background-color: rgb(233, 232, 232);
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.hero__head {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+.hero__head::before {
+  content: "Kelajak kasblari";
+  font-family: Manrope;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FF7A00;
+}
+.hero__list {
+  transform: translateY(-40px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.hero__item--head {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+.hero__img {
+  transform: translateY(50px);
+}
+.hero__item {
+  margin-top: 30px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  margin-left: 15px;
+}
+.hero__spans {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 21.86px;
+  color: #006CD0;
+}
+.hero__spans:hover {
+  text-decoration: underline;
+}
+.hero__link {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.86px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-left: 45px;
+}
+.hero__part2 {
+  background-color: #f9f8f7;
+  margin-top: 30px;
+  display: flex;
+  padding-left: 40px;
+}
+.hero__part2--cont {
+  margin-top: 100px;
+}
+.hero__head2 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+.hero__head2::before {
+  content: "+20 dan ortiq";
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FF7A00;
+}
+.hero__txt {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  width: 310px;
+}
+.hero__ser {
+  transform: translateY(50px);
+}/*# sourceMappingURL=Hero.css.map */

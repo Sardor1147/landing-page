@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 140px;
+}
+.header__list {
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+  margin-left: auto;
+}
+.header__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.header__btn {
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.86px;
+  letter-spacing: -0.02em;
+  height: 40px;
+  background-color: #E5E0D4;
+  border-radius: 100px;
+  border: 0px;
+}
+
+.a {
+  margin-top: 10px;
+}/*# sourceMappingURL=Header.css.map */

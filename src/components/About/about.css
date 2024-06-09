@@ -1,0 +1,49 @@
+.about__header {
+  padding-left: 60px;
+  background-color: #F1F0EE;
+}
+.about__tog {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 60px;
+}
+.about__head {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+}
+.about__togl {
+  width: 230px;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 100px;
+  margin-left: 70px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  background-color: #F1F0EE;
+}
+.about__1 {
+  background-color: #fff;
+  border-radius: 100px;
+  margin-left: 2px;
+  padding: 10px;
+}
+.about__2 {
+  margin-left: 10px;
+}
+
+.hover:hover {
+  text-decoration: underline;
+}
+
+.active {
+  background-color: #fff;
+  color: red;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 19.12px;
+  letter-spacing: -0.02em;
+}/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,55 @@
+.team{
+    &__1{
+        margin-left: 2px;
+    }
+    &__2{
+        margin-left: 14px;
+        background-color: #fff;
+        border-radius: 100px;
+        padding: 10px;
+    }
+    &__list{
+        width: 950px;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__item{
+        width: 270px;
+        height: 295px;
+        padding-top: 20px;
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    &__head{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+    &__head::before{
+        content: "Veb dasturchi";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    &__o{
+        background: conic-gradient(from 270deg at 100% 100%, #00F0FF 0deg, #0075FF 89.68deg, #FFF500 360deg);
+    }
+    &__i{
+        background: conic-gradient(from 270deg at 100% 100%, #0047FF 0deg, #00D1FF 89.68deg, #FFF500 360deg);
+    }
+    &__l{
+        background: conic-gradient(from 270deg at 100% 100%, #7CDEAF 0deg, #079D4C 89.68deg, #FFF500 360deg);
+    }
+    &__k{
+        background: conic-gradient(from 270deg at 100% 100%, #9FCD9B 0deg, #5DA206 89.68deg, #FFF500 360deg);
+    }
+    &__j{
+        background: conic-gradient(from 270deg at 100% 100%, #B8E0A4 0deg, #1B9F70 89.68deg, #FFF500 360deg);
+    }
+}
+.p{
+    background: conic-gradient(from 270deg at 100% 100%, #00B2FF 0deg, #0066FF 89.68deg, #FFF500 360deg);
+}

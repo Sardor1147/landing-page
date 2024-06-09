@@ -1,0 +1,107 @@
+.hero{
+
+    padding-left: 60px;
+    padding-right: 100px;
+    margin-top: 30px;
+    &__part{
+    background-color: rgb(233, 232, 232);
+    padding-left: 30px;
+    padding-top: 25px;
+    }
+    &__head{
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+    &__head::before{
+        content:"Kelajak kasblari";
+        font-family: Manrope;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FF7A00;
+    }
+
+    &__list{
+        transform:translateY(-40px);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__item--head{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+    &__img{
+        transform: translateY(50px);
+    }
+    &__item{
+        margin-top: 30px;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        margin-left: 15px;
+    }
+    
+    &__spans{
+        cursor: pointer;
+        font-weight: 700;
+        line-height: 21.86px;
+        color: #006CD0;
+    }
+
+    &__spans:hover{
+        text-decoration: underline;
+    }
+
+    &__link{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-left: 45px;
+    }
+    &__part2{
+        background-color: #f9f8f7;
+        margin-top: 30px;
+        display: flex;
+        padding-left: 40px;
+    }
+    &__part2--cont{
+        margin-top: 100px;
+    }
+    &__head2{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+    &__head2::before{
+        content: "+20 dan ortiq";
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FF7A00;
+    }
+    &__txt{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        width: 310px;
+    }
+    &__ser{
+        transform: translateY(50px);
+    }
+}

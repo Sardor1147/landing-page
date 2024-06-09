@@ -1,0 +1,102 @@
+.footer{
+    background-color: rgb(243, 240, 240);
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    &__up{
+        display: flex;
+    }
+    &__logo{
+        width: 62px;
+        height: 42px;
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    &__item1{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        padding-bottom: 50px;
+        margin-left: 70px;
+    }
+    &__item{
+        color: #81755C;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        margin-left: 70px;
+    }
+    &__txt{
+        width: 144px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    &__hr{
+        width: 830px;
+        margin-left: 250px;
+    }
+    &__list2{
+        width: 930px;
+        justify-content: space-between;
+        display: flex;
+    }
+    &__down--item:nth-child(1){
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        margin-top: 30px;
+        color: #81755C;
+        transform: translateX(-42px);
+    }
+    &__head{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        color: #000000;
+        letter-spacing: -0.02em;
+    }
+    &__down--item:nth-child(2){
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #81755C;
+        // margin-left: 110px;
+    }
+    &__down--item:nth-child(3){
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        margin-top: 37px;
+    }
+    &__links{
+        width: 130px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    &__num{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #000000;
+        letter-spacing: -0.02em;
+        margin-top: 37px;
+    }
+    &__number{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+}

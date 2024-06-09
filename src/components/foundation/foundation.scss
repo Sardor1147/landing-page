@@ -1,0 +1,354 @@
+.found{
+    &__gift{
+        display: flex;
+        width: 410px;
+        height: 25px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+        border-radius: 100px;
+        background: conic-gradient(from 135.12deg at 50% 50%, #FFD580 0deg, #FFE1A6 149.81deg, #FFF6D6 360deg);
+        padding-top: 10px;
+        margin-left: 55%;
+        transform: translateY(10px);
+    }
+    &__flex{
+        display: flex;
+    }
+    &__img{
+        margin-left: 20px;
+        padding-right: 10px;
+        width: 16px;
+        height: 16px;
+    }
+    &__head{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        padding-top: 30px;
+        letter-spacing: -0.02em;
+    }
+    &__part{
+        padding-left: 40px;
+        background-color: #F9F9F9;
+        width: 1064px;
+        border-radius: 4px;
+        display: flex;
+        margin-left: 60px;
+    }
+    &__span{
+        padding-bottom: 30px;
+        color: #81755C;
+        padding-top: 15px;
+    }
+    &__prof{
+        transform: translateY(6px);
+    }
+    &__txt{
+        width: 340px;
+        color: #000000;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+    &__b{
+        margin-left: auto;
+    }
+    &__list1{
+        display: flex;
+        justify-content: space-between;
+        width: 1090px;
+        margin-left: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+    }
+    &__for{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 60px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+    &__list11{
+        margin-left: 20px;
+        display: flex;
+        width: 716px;
+        justify-content: space-between;
+    }
+    &__i{
+        width: 300px;
+        padding: 24px;
+        background-color: #F9F9F9;
+    }
+    &__i--txt{
+        color: #000000;
+        width: 270px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+    &__i--flex{
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+    &__m{
+        padding-right: 20px;
+        width: 50px;
+        height: 55px;
+    }
+
+    &__list2{
+        margin-left: 25px;
+    }
+    &__item2{
+        width: 670px;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+    &__item2--f{
+        display: flex;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+    &__tick{
+        padding-right: 20px;
+    }
+    &__txt2{
+        color: #000000;
+        margin-left: 40px;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+
+    &__grid{
+        margin-left: 60px;
+        width: 640px;
+        height: 200px;
+        background-color: #f9f9f9;
+        padding: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__grid--flex{
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+    &__num{
+        background-color: orange;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        padding-top: 3px;
+        color: #fff;
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    &__grid--txt{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-left: 50px;
+    }
+    &__wrap{
+        background-color: #f9f9f9;
+        padding: 10px;
+        margin-left: 50px;
+        width: 710px;
+    }
+    &__z{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50px;
+    }
+    &__z--t{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        width: 370px;
+    }
+    &__z--d{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+        color: #81755C;
+        letter-spacing: -0.02em;
+    }
+    &__z--d::before{
+        content: "Darslar soni:";
+        font-size: 12px;
+        line-height: 12px;
+    }
+    &__z--o::before{
+        font-size: 12px;
+        line-height: 12px;
+       content: "Online dars:";
+    }
+    &__z--o{
+        color: #81755C;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+    }
+    &__itemm{
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+    }
+    &__flexx{
+        display: flex;
+        background-color: #F9F9F9;
+        width: 700px;
+        height: 250px;
+        margin-left: 55px;
+        padding-left: 30px;
+    }
+    &__column{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+        padding-top: 30px;
+    }
+    &__flexx--head{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    &__imig{
+        width: 55px;
+        height: 55px;
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+    &__plus{
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-weight: 800;
+        cursor: pointer;
+        margin-left: auto;
+        text-align: right;
+    }
+    &__none{
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: -0.02em;
+    }
+
+    &__ol1{
+        padding-top: 10px;
+        margin-left: 55px;
+        background-color: #F9F9F9;
+        width: 690px;
+        padding-bottom: 25px;
+    }
+
+    &__right{
+        width: 315px;
+        padding-top: 20px;
+        color: #ffffff;
+        height: 255px;
+        background: conic-gradient(from 270deg at 100% 100%, #0066FF 0deg, #DBFF00 89.68deg, #FFF500 360deg);
+        margin-top: 15px;
+        margin-left: 50px;
+     }
+     &__div{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        margin-left: 40px;
+        letter-spacing: -0.02em;
+    }
+    &__div::before{
+        content: "Kurs narxi";
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__div--list{
+        display: flex;
+        width: auto;
+        margin-right: 30px;
+        justify-content: space-between;
+    }
+    &__hr{
+        width: 250px;
+    }
+    &__link{
+        display: flex;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        width: 110px;
+        justify-content: space-between;
+        align-items: center;    
+        letter-spacing: -0.02em;
+    }
+    &__btn{
+        align-items: center;
+        margin-left: 25px;
+        width: 130px;
+        height: 44px;
+        border-radius: 100px;
+        border: 0px;
+        text-align: center;
+    }
+}
+.l{
+    margin-left: 550px;
+    font-weight: 500;
+}
+.l1{
+    margin-left: 500px;
+}
+.l11{
+    margin-left: 546px;
+}
+.l2{
+    margin-left: 385px;
+}
+.l22{
+    margin-left: 448px;
+}
+.r{
+    font-weight: 500;
+    margin-left: 460px;
+}
+.r1{
+    margin-left: 410px;
+}
+.r11{
+    margin-left: 285px;
+}
+.r2{
+    margin-left: 325px;
+}
+.r22{
+    margin-left: 410px;
+}

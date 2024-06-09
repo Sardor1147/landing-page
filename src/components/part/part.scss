@@ -1,0 +1,150 @@
+.part{
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    &__left--item{
+        background-color: rgb(219, 218, 218);
+        width: 500px;
+        height: 450px;
+        padding-left: 30px;
+    }
+    &__img{
+        margin-left: auto;
+        width: 250px;
+        height: 320px;
+    }
+    &__head{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        margin-top: 220px;
+    }
+    &__head::before{
+        content: "Yangi +3 ta kurs";
+        color: #FF7A00;
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+    &__span{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        cursor: pointer;
+    }
+    &__left--item1{
+        padding-left: 30px;
+        padding-top: 24px;
+        padding-right: 30px;
+        display: flex;
+        margin-top: 30px;
+        background: linear-gradient(45deg, yellow, rgb(244, 235, 185));
+    }
+    &__head2{
+        font-family: Manrope;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        width: 200px;
+    }
+
+    &__item1--right{
+        margin-left: auto;
+        font-family: Manrope;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.02em;
+        color: #FF7A00;
+        text-align: right;
+    }
+    &__spann{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: auto;
+    }
+
+    &__head3{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+
+    &__head4{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+
+    &__head4::before{
+        content: "Yangi +4 ta kurs";
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FF7A00;    
+    }
+
+    &__head3::before{
+        content: "Yangi +2 ta kurs";
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #FF7A00;    
+    }
+
+    &__right{
+        margin-left: 30px;
+    }
+
+    &__right--item{
+        width: 500px;
+        padding-top: 30px;
+        padding-left: 30px;
+        background: url("../../Assets/images/Group.png");
+    }
+
+    &__right--item1{
+        width: 500px;
+        padding-top: 30px;
+        padding-left: 30px;
+        background: url("../../Assets/images/Group1.png");
+    }
+
+    &__right--txt{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        width: 320px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+    }
+
+}
+
+
+p{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color:#81755C;
+}

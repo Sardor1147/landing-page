@@ -1,0 +1,119 @@
+.kurs{
+    &__header{
+        padding-left: 60px;
+        background-color: rgb(219, 218, 218);
+    }
+    &__list{
+        display: flex;
+    }
+    &__head{
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -0.02em;
+        margin-left: 35px;
+    }
+    &__tog{
+        background-color: #F1F0EE;
+        border-radius: 100px;
+        width: 140px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__search{
+        align-items: center;
+        width: 240px;
+        height: 40px;
+        border-radius: 100px;
+        margin-top: 15px;
+        padding-left: 20px;
+        border: 1px solid #C4C4C4;
+        margin-left: 170px;
+    }
+    &__l{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+        color: black;
+    }
+    &__inp{
+        margin-top: 3px;
+        border: 0px;
+        color: #C4C4C4;
+        width: 208px;
+        height: 30px;
+    }
+
+    &__list--head{
+        margin-left: 37px;
+    }
+    &__head--item{
+        display: flex;
+        width: 280px;
+        height: 106px;
+        opacity: 0.8;
+        padding-left: 30px;
+        background: linear-gradient(309.03deg, #E4E1DB 0.92%, #F4F0EB 44.42%, #F9F9F9 100.96%);
+    }
+    &__head--item1{
+        margin-top: 10px;
+        width: 280px;
+        padding-top: 20px;
+        background: url("../../Assets/images/Group29.png");
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    &__item--head1{
+        color: #000000;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+    }
+    &__w{
+        color: #000000;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+    }
+    &__item--head{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    &__item--head::after{
+        content: "12 ta kurs";
+        color: #81755C;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    &__img{
+        width: 120px;
+        height: auto;
+        margin-left: auto;
+    }
+}
+.active{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 19.12px;
+    letter-spacing: -0.02em;
+    background-color: #fff;
+    border-radius: 100px;
+    width: 40%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}

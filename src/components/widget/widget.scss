@@ -1,0 +1,189 @@
+.widget{
+    &__abbr{
+        text-decoration: underline;
+    }
+    &__list{
+        letter-spacing: -0.02em;
+        margin-left: 20px;
+        display: flex;
+
+    }
+    &__item{
+        padding-left: 30px;
+        color: #fff;
+        background: url("../../Assets/images/bg.png");
+        width: 490px;
+        height: 470px;
+        background-repeat: no-repeat;
+    }
+    &__item:nth-child(2){
+        margin-left: 30px;
+    }
+    &__img{
+        transform: translateY(40px);
+        margin-left: 160px;
+    }
+    &__head{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    &__head::before{
+        content: "Grafik dizayn";
+        font-family: Manrope;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__txt{
+        font-family: Manrope;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 400px;
+    }
+
+    &__partner{
+        display: flex;
+        padding-left: 60px;
+        background-color: rgb(219, 218, 218);
+        width: 1010px;
+        margin-left: 60px;
+    }
+    &__part--head{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+    &__part--head::before{
+        content: "Yolg’iz emasmiz";
+        font-family: Manrope;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FF7A00;
+    }
+    &__part--txt{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 310px;
+        letter-spacing: -0.02em;
+    }
+    &__partners{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    &__i{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    
+    &__i:nth-child(12){
+        margin-left: 10px;
+        transform: translateY(-20px);
+    }
+    &__i:nth-child(13){
+        margin-left: 10px;
+    }
+
+    &__grad{
+        margin-left: 60px;
+        margin-top: 30px;
+        display: flex;
+    }
+    &__grad--left{
+        background-color: rgb(219, 218, 218);
+        width: 620px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+    &__grad--head{
+        font-family: Manrope;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: -0.02em;
+    }
+    &__g--l{
+        margin-top: 30px;
+    }
+    &__grad--head--after{
+        width: 260px;
+        color: #81755C;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    &__g--link{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    &__g--list{
+        font-family: Manrope;
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-left: 120px;
+    }
+    &__g--h1::before{
+        content: "Bitiruvchilarimiz";
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__g--h2::before{
+        content: "O‘quvchilarimiz";
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__g--h3::before{
+        content: "Ustozlarimiz";
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__grad--right{
+        width: 420px;
+        background-color: #f9f8f7;
+        margin-left: 30px;
+    }
+    &__g--img{
+        margin-top: 30px;
+        width: 55px;
+        height: 55px;
+    }
+    &__g--flex{
+        display: flex;
+        // margin-top: 20px;
+    }
+    &__g--s{
+        background-color: #FFFFFF4D;
+        border-radius: 50%;
+        // transform: translateX(-30px);
+    }
+    &__g--t{
+        font-family: Manrope;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        margin-left: 30px;
+    }
+    &__g--team{
+        width: 370px;
+        height: 340px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+}

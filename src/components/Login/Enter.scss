@@ -1,0 +1,41 @@
+.enter{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    &__head{
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: 500;
+        line-height: 49.22px;
+        text-align: center;
+    }
+    &__btn{ 
+        border-radius: 76px;
+        color: #fff;
+        font-family: Segoe UI;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23.94px;
+        height: 60px;
+        border: 0px;
+        background-color: #1DA1F2;
+    }
+    &__in{
+        height: 70px;
+        border-radius: 6px;
+        padding: 10px;
+        font-family: Segoe UI;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 23.94px;
+        color: black;
+        border: 1px solid #00000033;
+    }
+    &__w{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.w{
+    width: 100%;
+}

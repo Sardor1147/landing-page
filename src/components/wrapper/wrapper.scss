@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    height: 500px;
+}
+.kurs{
+    &__list--head{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        justify-content: space-between;
+    }
+    &__head--item{
+        margin-top: 10px;
+        cursor: pointer;
+    }
+}
